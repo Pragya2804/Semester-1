@@ -1,0 +1,23 @@
+Program to implement linear transformations - scaling, rotation and transformation
+on polygons and discs(and ellipses) using matrix multiplication.
+
+Input format:
+Type polygon or disc
+In case of polygon type x coordinates with spaces
+		   type y coordinates with spaces
+In case of disc
+type x-coordinate of centre, y-coordinate of centre, radius (all separated with spaces)
+
+For rotation
+R (angle in degrees)
+For transformation
+T (trans in x direction) (trans in y direction)
+For scaling
+S (scaling along x direction) (scaling accross y direction)
+
+e.g
+disc
+0 0 2
+T 1 2
+S 1 2
+R 45 
